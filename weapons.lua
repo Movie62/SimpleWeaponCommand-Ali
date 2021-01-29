@@ -1,4 +1,4 @@
---[[ Copy this and put your weapon in an call it what ever you want
+--[[ Copy this and put your weapon in and call it what ever you want
 
    RegisterCommand("-", function()
    giveWeapon("weapon_-")

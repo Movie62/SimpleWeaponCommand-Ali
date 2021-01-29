@@ -88,11 +88,7 @@ RegisterCommand("muskete", function()
    TriggerEvent("ali_notify", "#8a2be2", "WAFFEN | SYSTEM", "Du hast dir eine Muskete gegeben")
    -- ESX.ShowNotification("") -- Standart ESX Notify
 end)
-RegisterCommand("-", function()
-   giveWeapon("weapon_-")
-   TriggerEvent("ali_notify", "#8a2be2", "WAFFEN | SYSTEM", "Du hast dir eine - gegeben")
-   -- ESX.ShowNotification("") -- Standart ESX Notify
-end)
+
 
 
 function giveWeapon(hash)
